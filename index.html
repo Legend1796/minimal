@@ -5,26 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
     <title>Minimal</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <img src="images/logo_color.png" alt="картинка главная" class="logo" />
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="images/logo_color.png" alt="logo" class="logo"
+            /></a>
+            <h2 class="text-center text-black text-oswald">MINIMAL</h2>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-montserrat" href="#">process</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-montserrat" href="#">projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-montserrat" href="#">team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-montserrat" href="#">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
-
     <section class="promo">
-      <img src="images/main.png" alt="картинка главная" class="logo" />
-      <div class="container">
+      <div class="container promo__container">
         <div class="row">
-          <div class="col-12">
-            <h1 class="text-center text-white">Making brands stand out</h1>
-            <h1 class="text-center text-white">is our obsession</h1>
+          <h1 class="text-center text-white text-montserrat">
+            Making brands stand out is our obsession
+          </h1>
+        </div>
+        <div class="row"><div class="promo__rectangle"></div></div>
+        <div class="row">
+          <p class="text-center text-white text-vollkorn">
+            Let us help your brand stand out.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="yellow">
+      <div class="container yellow-container">
+        <div class="row">
+          <h5 class="text-center text-yellow-container text-vollkorn">
+            Minimalist is a full-service digital creative agency located in
+            Ontorio Canada. We focus on design, consulting, technology, and
+            photography. We’ve been building unique digital products, platforms,
+            and experiences for the past 6 years. Let us help your company grow.
+          </h5>
+        </div>
+        <div class="row">
+          <div class="col-12 yellow__button">
+            <button type="button" class="btn btn-outline-dark">
+              Get in Touch
+            </button>
           </div>
         </div>
       </div>
-      <div class="row"><div class="col-12"></div></div>
     </section>
     <script src="/js/bootstrap.bundle.min.js"></script>
   </body>

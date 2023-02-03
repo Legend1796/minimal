@@ -4,6 +4,95 @@
     --colorTextMain: #333333;
     --colorTextForm: #FFFFFF;
     --colorGreen: #8BCAC3;
---colorRights: #FFFFFF66;
+    --colorRights: #FFFFFF66;
+}
 
+h1, h2 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+header {
+    padding: 0 238px;
+}
+
+p, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.text-oswald {
+    font-family: 'Oswald';
+}
+
+.text-vollkorn {
+    font-family: "Vollkorn";
+}
+
+.promo {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/main.png");
+}
+
+.promo__container {
+    max-width: 640px;
+    padding-top: 105px;
+    padding-bottom: 100px;
+}
+
+.promo__rectangle {
+    width: 80px;
+    border-bottom: 2px solid white;
+    margin: 28px auto 25px;
+}
+
+.text-montserrat {
+    font-family: 'Montserrat';
+}
+
+.text-yellow-container {
+    color: var(--colorTextMain);
+    margin-bottom: 40px;
+}
+
+.yellow-container {
+    max-width: 1050px;
+}
+
+.yellow {
+    background-color: var(--colorBg2);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.yellow__button {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1280px) {
+    header {
+        padding: 0 100px;
+    }
+    .promo__container {
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+    .yellow {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0 30px;
+    }
+    .promo__container {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
 }
