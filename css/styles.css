@@ -7,7 +7,7 @@
     --colorRights: #FFFFFF66;
 }
 
-h1, h2 {
+h1, h2, h5 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -43,10 +43,15 @@ p, h3 {
     padding-bottom: 100px;
 }
 
-.promo__rectangle {
+.rectangle {
     width: 80px;
     border-bottom: 2px solid white;
     margin: 28px auto 25px;
+}
+
+.rectangle_about {
+    border-bottom: 2px solid #00000017;
+    margin: 28px auto 43px;
 }
 
 .text-montserrat {
@@ -73,6 +78,36 @@ p, h3 {
     justify-content: center;
 }
 
+.text-about {
+    color: var(--colorTextMain);
+}
+
+.about {
+    padding: 80px 0;
+}
+
+.about__block {
+    width: 300px;
+    height: 219px;
+    background-color: var(--colorBgMain);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__container {
+    max-width: 1240px;
+}
+
+.about__row {
+    justify-content: center;
+    align-items: center;
+}
+
+.about__title {
+    margin: 38px auto 20px;
+}
+
 @media screen and (max-width: 1280px) {
     header {
         padding: 0 100px;
@@ -84,6 +119,9 @@ p, h3 {
     .yellow {
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    .about {
+        padding: 20px 0;
     }
 }
 
