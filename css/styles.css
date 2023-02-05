@@ -1,174 +1,177 @@
 :root {
-    --colorBg2: #FEFEC9;
-    --colorBgMain: #F5F5F5;
-    --colorTextMain: #333333;
-    --colorTextForm: #FFFFFF;
-    --colorGreen: #8BCAC3;
-    --colorRights: #FFFFFF66;
+	--colorBg2: #fefec9;
+	--colorBgMain: #f5f5f5;
+	--colorTextMain: #333333;
+	--colorTextForm: #ffffff;
+	--colorGreen: #8bcac3;
+	--colorRights: #ffffff66;
 }
 
-h1, h2, h5 {
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
+h1,
+h2,
+h5 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
 }
 
 header {
-    padding: 0 238px;
+	padding: 0 238px;
 }
 
-p, h3 {
-    margin: 0;
-    padding: 0;
+p,
+h3 {
+	margin: 0;
+	padding: 0;
 }
 
 .text-oswald {
-    font-family: 'Oswald';
+	font-family: "Oswald";
 }
 
 .text-vollkorn {
-    font-family: "Vollkorn";
+	font-family: "Vollkorn";
 }
 
 .promo {
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../images/main.png");
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../images/main.png");
 }
 
 .promo__container {
-    max-width: 640px;
-    padding-top: 105px;
-    padding-bottom: 100px;
+	max-width: 640px;
+	padding-top: 105px;
+	padding-bottom: 100px;
 }
 
 .rectangle {
-    width: 80px;
-    border-bottom: 2px solid white;
-    margin: 28px auto 25px;
+	width: 80px;
+	border-bottom: 2px solid white;
+	margin: 28px auto 25px;
 }
 
 .rectangle_about {
-    border-bottom: 2px solid #00000017;
-    margin: 28px auto 43px;
+	border-bottom: 2px solid #00000017;
+	margin: 28px auto 43px;
 }
 
 .text-montserrat {
-    font-family: 'Montserrat';
+	font-family: "Montserrat";
 }
 
 .text-yellow-container {
-    color: var(--colorTextMain);
-    margin-bottom: 40px;
+	color: var(--colorTextMain);
+	margin-bottom: 40px;
 }
 
 .yellow-container {
-    max-width: 1050px;
+	max-width: 1050px;
 }
 
 .yellow {
-    background-color: var(--colorBg2);
-    padding-top: 60px;
-    padding-bottom: 60px;
+	background-color: var(--colorBg2);
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .yellow__button {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .text-about {
-    color: var(--colorTextMain);
+	color: var(--colorTextMain);
 }
 
 .about {
-    padding: 80px 0;
+	padding: 80px 0;
 }
 
 .about__block {
-    width: 300px;
-    height: 219px;
-    background-color: var(--colorBgMain);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	width: 300px;
+	height: 219px;
+	background-color: var(--colorBgMain);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .about__container {
-    max-width: 1240px;
+	max-width: 1240px;
 }
 
 .about__row {
-    width: 300px;
+	width: 300px;
 }
 
 .about__title {
-    margin: 38px auto 20px;
+	margin: 38px auto 20px;
 }
 
 .content {
-    padding: 80px 0;
-    background-color: var(--colorBgMain);
+	padding: 80px 0;
+	background-color: var(--colorBgMain);
 }
 
 .content__container {
-    max-width: 970px;
+	max-width: 970px;
 }
 
 .content__image {
-    width: 300px;
-    height: 300px;
+	width: 300px;
+	height: 300px;
 }
 
 .col__content {
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 
 .block {
-    width: 300px;
-    background-color: #fff;
-    margin-bottom: 20px;
+	width: 300px;
+	background-color: #fff;
+	margin-bottom: 20px;
 }
 
 .title-card {
-    font-size: 16px;
-    line-height: 20px;
-    margin: 19px auto 4px;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 19px auto 4px;
 }
 
 .text-description {
-    margin-bottom: 21px;
+	margin-bottom: 21px;
 }
 
 @media screen and (max-width: 1280px) {
-    header {
-        padding: 0 100px;
-    }
-    .promo__container {
-        padding-top: 55px;
-        padding-bottom: 50px;
-    }
-    .yellow {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .about {
-        padding: 20px 0;
-    }
+	header {
+		padding: 0 100px;
+	}
+	.promo__container {
+		padding-top: 55px;
+		padding-bottom: 50px;
+	}
+	.yellow {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.about {
+		padding: 20px 0;
+	}
 }
 
 @media screen and (max-width: 768px) {
-    header {
-        padding: 0 30px;
-    }
-    .promo__container {
-        padding-top: 25px;
-        padding-bottom: 20px;
-    }
-    .content {
-        padding: 20px 0;
-        background-color: var(--colorBgMain);
-    }
+	header {
+		padding: 0 30px;
+	}
+	.promo__container {
+		padding-top: 25px;
+		padding-bottom: 20px;
+	}
+	.content {
+		padding: 20px 0;
+		background-color: var(--colorBgMain);
+	}
 }
