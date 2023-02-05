@@ -100,8 +100,7 @@ p, h3 {
 }
 
 .about__row {
-    justify-content: center;
-    align-items: center;
+    width: 300px;
 }
 
 .about__title {
