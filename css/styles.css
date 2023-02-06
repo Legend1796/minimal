@@ -40,6 +40,14 @@ h3 {
 	background-image: url("../images/main.png");
 }
 
+.footer {
+    width: 100vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../images/footer_img.png");
+    padding: 80px 0;
+}
+
 .promo__container {
 	max-width: 640px;
 	padding-top: 105px;
@@ -155,6 +163,54 @@ h3 {
     gap: 6px;
 }
 
+.social {
+    width: 14px;
+    height: 14px;
+}
+
+.quotes {
+    padding: 70px 0;
+}
+
+.quote__title {
+    justify-content: center;
+}
+
+.quote__image {
+    width: 64px;
+    height: 64px;
+}
+
+.text-quote {
+    font-size: 26px;
+    line-height: 33px;
+    max-width: 338px;
+    margin-bottom: 24px;
+}
+
+.title-quote {
+    color: #ABABAB;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.row__quotes {
+    margin-top: 65px;
+}
+
+.footer__row {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.footer__cosials {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 @media screen and (max-width: 1280px) {
 	header {
 		padding: 0 100px;
@@ -173,6 +229,9 @@ h3 {
 	.team {
 		padding: 20px 0;
 	}
+    .quotes {
+    padding: 20px 0;
+}
 }
 
 @media screen and (max-width: 768px) {
