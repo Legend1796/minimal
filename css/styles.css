@@ -33,15 +33,19 @@ h3 {
 	font-family: "Vollkorn";
 }
 
+.vollkorn-italic {
+    font-style: italic;
+    font-size: 17px;
+    line-height: 22px;
+}
+
 .promo {
-	width: 100vw;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url("../images/main.png");
 }
 
 .footer {
-    width: 100vw;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url("../images/footer_img.png");
@@ -218,6 +222,28 @@ h3 {
     color: #FFFFFF66;
 }
 
+.form__container {
+    max-width: 1000px;
+}
+
+.input {
+    width: 564px;
+    height: 57px;
+    border: none;
+    color: white;
+    background-color: #FFFFFF2E;
+}
+
+.input-light {
+    background-color: #FFFFFF33;
+}
+
+.primary {
+    border: var(--colorGreen) solid 1px;
+    border-radius: 0;
+    color: var(--colorGreen);
+}
+
 @media screen and (max-width: 1280px) {
 	header {
 		padding: 0 100px;
@@ -256,4 +282,7 @@ h3 {
 		padding: 20px 0;
 		background-color: var(--colorBgMain);
 	}
+    .input {
+    width: 264px;
+}
 }
